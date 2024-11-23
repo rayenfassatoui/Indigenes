@@ -1,0 +1,64 @@
+{
+  "name": "indigenes-web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.9",
+    "@chakra-ui/react": "^2.2.9",
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^14.3.0",
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "framer-motion": "^6.5.1",
+    "gsap": "^3.11.0",
+    "i18next": "^22.5.1",
+    "i18next-browser-languagedetector": "^7.0.2",
+    "i18next-http-backend": "^2.2.1",
+    "imgbb-uploader": "^1.5.0",
+    "react": "^18.2.0",
+    "react-countup": "^6.3.1",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^12.3.1",
+    "react-icons": "^3.11.0",
+    "react-intersection-observer": "^9.4.0",
+    "react-select-country-list": "^2.2.3",
+    "react-svg-popover": "^1.0.10",
+    "react-wavify": "^1.6.1",
+    "reactjs-popup": "^2.0.5",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.41.0",
+    "eslint-config-react-app": "^7.0.1",
+    "react-router-dom": "^6.3.0",
+    "vite": "^4.3.9",
+    "vite-plugin-eslint": "^1.8.1",
+    "vite-plugin-html": "^3.2.0",
+    "vite-plugin-svgr": "^3.2.0",
+    "vite-tsconfig-paths": "^4.2.0"
+  }
+}
